@@ -8,4 +8,10 @@
     height: 70px;
     border-radius: 50%;
   }
+
+  &__customer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }
