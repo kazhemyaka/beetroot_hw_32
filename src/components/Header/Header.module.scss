@@ -1,0 +1,23 @@
+.header {
+  background-color: #283592;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+
+  &__logo {
+    fill: #fff;
+    width: 15rem;
+    height: 2rem;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  &__burger {
+    cursor: pointer;
+  }
+}

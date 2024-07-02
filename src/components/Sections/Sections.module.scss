@@ -1,0 +1,35 @@
+.sections {
+  display: grid;
+  padding: 1rem;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "revenue newOrders reviews customers"
+    "welcome welcome reviews customers"
+    "pendingOrders pendingOrders . .";
+
+  &__revenue {
+    grid-area: revenue;
+  }
+
+  &__newOrders {
+    grid-area: newOrders;
+  }
+
+  &__reviews {
+    grid-area: reviews;
+  }
+
+  &__customers {
+    grid-area: customers;
+  }
+
+  &__welcome {
+    grid-area: welcome;
+  }
+
+  &__pendingOrders {
+    grid-area: pendingOrders;
+  }
+}

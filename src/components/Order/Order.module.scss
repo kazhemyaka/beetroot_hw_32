@@ -1,0 +1,31 @@
+.order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__info {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  &__img {
+    width: 70px;
+    height: 70px;
+    border-radius: 1rem;
+  }
+
+  &__infotext {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__datetime {
+    font-weight: 500;
+  }
+
+  &__customer {
+    color: #707070;
+  }
+}

@@ -1,0 +1,11 @@
+.customer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  &__img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+}

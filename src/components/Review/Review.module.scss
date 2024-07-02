@@ -1,0 +1,11 @@
+.review {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+
+  &__img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+}

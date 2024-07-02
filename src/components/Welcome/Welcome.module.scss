@@ -1,0 +1,27 @@
+.welcome {
+  border: 2px solid #e8e8e8;
+  border-radius: 1rem;
+
+  &__img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  &__text {
+    padding: 2rem;
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  &__buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,32 @@
+.statistic {
+  border: 2px solid #e8e8e8;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+
+  &__value,
+  &__title {
+    display: block;
+    text-align: right;
+  }
+
+  &__title {
+    margin-bottom: 0.7rem;
+  }
+
+  &__value {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
