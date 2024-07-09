@@ -1,7 +1,7 @@
 import styles from "./Header.module.scss";
 import { IoMenuSharp, IoReload, IoPersonCircle } from "react-icons/io5";
 import { IconContext } from "react-icons";
-import headerSprite from "../../assets/header.svg";
+import dashboardLogo from "../../assets/Dashboard-cropped.svg";
 import { useSidebar } from "../../context/SidebarContext";
 
 function Header() {
@@ -19,9 +19,11 @@ function Header() {
           className={styles.header__burger}
         />
       </IconContext.Provider>
-      <svg className={styles.header__logo}>
-        <use href={headerSprite + "#Dashboard"}></use>
-      </svg>
+      <img
+        src={dashboardLogo}
+        alt="Dashboard Logo"
+        className={styles.header__logo}
+      />
       <div className={styles.header__icons}>
         <IconContext.Provider value={{ color: "white", size: "35px" }}>
           <IoReload />
